@@ -1,0 +1,91 @@
+@media only screen and (min-width: 64em) {
+
+    header button {
+        display: none;
+    }
+
+	#header-logo {
+		margin-top: 0px;
+	}
+
+    
+	
+	nav {
+		grid-row: 1;
+		grid-column: 4/5;
+	}
+	
+	nav ul#primary-nav {
+        display: flex;
+		margin: 0px;
+		padding: 0rem;
+		width: 500px;
+        justify-content: left;
+		text-decoration: goldenrod underline;
+    }
+
+	nav ul li a {
+		padding-left: 2rem;
+		padding-right: 2rem;
+		padding-top: 60px;
+		padding-bottom: 0px;
+		height: 90px;
+		width: 150px;
+		font-size: 1.5rem;
+	}
+
+
+	main {
+		grid-template-columns: repeat(3, auto);
+		grid-template-rows: repeat(6, auto);
+	}
+
+
+	
+	.calltoaction {
+		grid-row: 6;
+		grid-column: 1;
+	}
+	
+
+	
+
+
+	/************   Fresh order stylying *****************************/
+
+	.mainfresh {
+		grid-template-columns: 1fr 1fr;
+		grid-template-rows: repeat(2, auto);
+	}
+	.drinkinfo {
+		grid-row: 2;
+		grid-column: 2;
+	}
+
+
+
+
+
+
+
+	.about-main {
+		grid-template-columns: 2fr;
+		grid-template-rows: repeat(2, auto);
+	}
+	
+	.about-history {
+		grid-row: 1;
+		grid-column: 1;
+	}
+	.about-now {
+		grid-row: 2;
+		grid-column: 1;
+	}
+	.about-contact {
+		grid-row: 1;
+		grid-column: 2;
+	  
+	}
+
+
+}

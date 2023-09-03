@@ -1,0 +1,37 @@
+
+{
+    "venues": [
+        {
+            "name": "Billy Bob's Texas",
+            "website": "https://billybobstexas.com/events",
+            "facebook": "https://www.facebook.com/BillyBobsTexas",
+            "instagram": "https://www.instagram.com/billybobstexas/",
+            "twitter": "https://twitter.com/billybobstexas",
+            "area": "Fort Worth",
+            "latlong": "32.79135465813812, -97.34743034434258",
+            "navigation": "https://www.google.com/maps/dir//Billy+Bob's+Texas,+2520+Rodeo+Plaza,+Fort+Worth,+TX+76164/@32.7913547,-97.3475912,21z/data=!4m9!4m8!1m0!1m5!1m1!1s0x864e76a6b51cc389:0x325b06118fe2753b!2m2!1d-97.34743!2d32.791326!3e0?entry=ttu"
+        },
+        {
+            "name": "Southern Junction Royse City",
+            "website": "https://southernjunctionlive.com/music-events/",
+            "facebook": "https://www.facebook.com/sojoTX/?ref=bookmarks",
+            "instagram": "https://www.instagram.com/southern_junction_live/",
+            "twitter": "https://twitter.com/SOJOTexas",
+            "area": "Northeast of Dallas",
+            "latlong": "32.9013808,-96.3676488",
+            "navigation": "https://www.google.com/maps/dir//Southern+Junction+Live,+5574+TX-276,+Royse+City,+TX+75189/@32.9013808,-96.3676488,17z/data=!4m17!1m7!3m6!1s0x8649557727bf1c59:0x785597cd1b0c4b0d!2sSouthern+Junction+Live!8m2!3d32.9013808!4d-96.3650739!16s%2Fg%2F1jglwcb01!4m8!1m0!1m5!1m1!1s0x8649557727bf1c59:0x785597cd1b0c4b0d!2m2!1d-96.3650739!2d32.9013808!3e4?entry=ttu"
+        },
+        {
+            "name": "Stagecoach Ballroom",
+            "website": "http://www.stagecoachballroom.com/eventscalendar.html",
+            "facebook": "https://www.facebook.com/StagecoachBallroom/",
+            "instagram": "https://www.instagram.com/stagecoachballroom/?hl=en",
+            "twitter": "https://twitter.com/StagecoachFWTX",
+            "area": "Fort Worth",
+            "latlong": "32.7690315,-97.3121008",
+            "navigation": "https://www.google.com/maps/dir//Stagecoach+Ballroom,+2516+E+Belknap+St,+Fort+Worth,+TX+76111/@32.7690315,-97.3121008,17z/data=!4m12!1m2!2m1!1sstagecoach+ballroom+twitter!4m8!1m0!1m5!1m1!1s0x864e7129ec4c514b:0x77170f98bf441010!2m2!1d-97.3095318!2d32.7690407!3e4?entry=ttu"
+        }
+        
+    ]
+}
+

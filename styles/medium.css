@@ -1,0 +1,39 @@
+@media only screen and (min-width: 32.5em) {
+
+
+main {
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    /* grid-template-rows: repeat(6, auto); */
+}
+
+.calltoaction {
+    grid-row: 6;
+    grid-column: 1;
+}
+
+#nav-icon, .fa-brands {
+    margin: 0 1rem;
+}
+
+#website {
+    margin-bottom: 1rem;
+}
+
+
+.about-history {
+    grid-row: 1;
+    grid-column: 1;
+}
+.about-now {
+    grid-row: 2;
+    grid-column: 1;
+}
+.about-contact {
+    grid-row: 3;
+    grid-column: 1;
+}
+
+
+
+}

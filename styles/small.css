@@ -18,11 +18,13 @@ header {
     background-color: black;
 }
 
-#header-logo {
+.header-logo {
     grid-column: 1/3;
     grid-row: 1;
     margin-left: 2rem;
     margin-top: 30px;
+    font-family: 'Rye';
+    color: gold;
 }
 
 #buttonholder {
@@ -124,16 +126,16 @@ main li {
 
 
 /****************************  Map Pilot stuff ******************/
-/* 
+/*
  * Always set the map height explicitly to define the size of the div element
- * that contains the map. 
+ * that contains the map.
  */
  #map {
     height: 100%;
   }
-  
-  /* 
-   * Optional: Makes the sample page fill the window. 
+
+  /*
+   * Optional: Makes the sample page fill the window.
    */
   html,
   body {
@@ -260,7 +262,7 @@ span {
 .about-history {
     grid-row: 1;
     grid-column: 1;
-    
+
 }
 .about-now {
     grid-row: 2;
@@ -268,7 +270,7 @@ span {
 }
 .about-contact {
     grid-row: 3;
-    grid-column: 1; 
+    grid-column: 1;
 }
 
 .about-contact iframe {
@@ -308,7 +310,7 @@ main a {
     /* padding-bottom: 20px;
     margin-top: 20px; */
     font-size: 1.4rem;
-    font-weight: bold;
+    /* font-weight: bold; */
 }
 
 /* a.venue-list-socials + a.venue-list-socials::before {
@@ -326,6 +328,7 @@ p .venue-list-action, .venue-list-action {
 .sector {
     font-size: 1.2rem;
     padding-bottom: 1rem;
+    /* color: black; */
 }
 
 .pagetitle {
@@ -371,7 +374,7 @@ i:hover, a:hover {
 
 
 section {
-    margin: 0 .5rem 0 .5rem; 
+    margin: 0 .5rem 0 .5rem;
     padding-top: 1rem;
     padding-bottom: 1rem;
     background-color: gold;
@@ -438,6 +441,10 @@ section {
     font-weight: bold;
 }
 
+/* .venuename {
+    color: black;
+} */
+
 .map {
 	display: flex;
 	flex-direction: column;
@@ -457,7 +464,7 @@ section {
 }
 
 .map section img {
-	display: none; 
+	display: none;
 }
 
 #shadow-host-companion {

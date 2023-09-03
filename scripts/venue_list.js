@@ -118,9 +118,11 @@ const displaycards = (venues) => {
       card.appendChild(buswebsite);
       
       icons.appendChild(venuenav);
-      icons.appendChild(venuefacebook);
-      icons.appendChild(venueinstagram);
-      icons.appendChild(venuetwitter);
+
+      // If the JSON includes info for the social media, append those to the display card
+      if (`${venue.facebook}`) {icons.appendChild(venuefacebook);}
+      if (`${venue.instagram}`) {icons.appendChild(venueinstagram);}
+      if (`${venue.twitter}`) {icons.appendChild(venuetwitter);}
 
       card.appendChild(icons);
       

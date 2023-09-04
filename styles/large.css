@@ -29,63 +29,22 @@
 		padding-right: 2rem;
 		padding-top: 60px;
 		padding-bottom: 0px;
-		height: 90px;
-		width: 150px;
-		font-size: 1.5rem;
+		height: 40px; 
+		
 	}
 
 
-	/* main {
-		grid-template-columns: repeat(3, auto);
-		grid-template-rows: repeat(6, auto);
-	} */
-
-
+/* 
 	
 	.calltoaction {
 		grid-row: 6;
 		grid-column: 1;
-	}
+	} */
 	
 
-	
 
-
-	/************   Fresh order stylying *****************************/
-
-	.mainfresh {
-		grid-template-columns: 1fr 1fr;
-		grid-template-rows: repeat(2, auto);
+	#instructions {
+		margin-bottom: 30px;
 	}
-	.drinkinfo {
-		grid-row: 2;
-		grid-column: 2;
-	}
-
-
-
-
-
-
-
-	.about-main {
-		grid-template-columns: 2fr;
-		grid-template-rows: repeat(2, auto);
-	}
-	
-	.about-history {
-		grid-row: 1;
-		grid-column: 1;
-	}
-	.about-now {
-		grid-row: 2;
-		grid-column: 1;
-	}
-	.about-contact {
-		grid-row: 1;
-		grid-column: 2;
-	  
-	}
-
 
 }

@@ -5,8 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
-    <meta name="description" content="Add information page for DFW Metro Live Music">
-    <title>Add Info for DFW Metro Live Music</title>
+    <meta name="description" content="Homepage for DFW Country Music">
+    <title>DFW Country Music</title>
     <link rel="stylesheet" href="styles/normalize.css">
     <link rel="stylesheet" href="styles/small.css">
     <link rel="stylesheet" href="styles/medium.css">
@@ -14,14 +14,18 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href='https://fonts.googleapis.com/css?family=Rye' rel='stylesheet'>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
     <link rel="icon" href="boot-favicon.ico">
 </head>
 
 <body>
 
 <header>
-    <img id="header-logo" src="images/small_logo.png" alt="DFW Live Country Logo">
+    
+    <!-- <img class="header-logo" src="images/small_logo.png" alt="DFW Live Country Logo"> -->
+    <h1 class="header-logo">DFW Country</h1>
 
     
     <div id=buttonholder>
@@ -30,61 +34,35 @@
 
     <nav>
         <ul id="primary-nav">
-            <li><a href="./">Local Venues</a></li>
-            <li><a href="./local_artists.html">Local Artists</a></li>
-            <li><a href="./national_artists.html">Visiting Artists</a></li>
-            <li><a href="./about.html">About</a></li>
+            <li><a href="./">Local Venues List</a></li>
+            <li><a href="./local_venues_map.html">Local Venues Map</a></li>
         </ul>
     </nav>
 
 </header>
 
 
-<main class="mainfresh">
-<!-- 
-Do NOT send the form to a new page upon form submission. Instead, use a JavaScript event handler to produce a formatted output area on this same page showing:
-the input values of the order (7 inputs = first name, email, phone, three selected fruits, and special instructions),
-the order date, and
-the total amount of carbohydrates, protein, fat, sugar, and calories based upon the three fruit choices selected on the form. The data source provides that information per fruit. -->
-    
-    <div class="freshexplanation">
-        <h1>Order Fresh!</h1>
-        <p>Please use the form below to choose three fruits for your fresh drink. </p>
-    </div>
+<main class="mainsubmitpage">
 
-    <div class="freshform">
+<div class = "pagetitle">
+    <h2>Please let us know what we should add</h2>
+</div>
+
+    <div class="missing_info_form">
         <form id="formid" method="get" onsubmit="return false">
-            <label>First Name* <input type="text" name="fname" id="fname" required></label>
-            <label>Email* <input type="email" name="email" id="email" placeholder="clevershopper@interweb.com" required></label> 
-            <label>Phone* <input type="tel" name="phone" id="phone" placeholder="7605551234" required></label>
-            
-            <div class = "fruitchoices">
-                <label for="fruit1">First Fruit Choice*</label>
-                    <select name="fruit1" id="fruit1" required>
-                        <option value="">Please Select Fruit &#9662;</option>
-                    </select>
-            </div>
+            <label>Business Name* <input type="text" name="venuename" id="venuename" required></label>
+            <label>Website Link* <input type="text" name="venueurl" id="venueurl" placeholder="https://business/events" required></label> 
+            <label>Facebook Link <input type="url" name="facebook" id="facebook" placeholder="https://www.facebook.com/location_example/"></label> 
+            <label>Instagram Link <input type="url" name="instagram" id="instagram" placeholder="https://www.instagram.com/location_example/" ></label> 
+            <label>Twitter (now X) Link <input type="url" name="twitter" id="twitter" placeholder="hthttps://twitter.com/location_example/" ></label> 
+            <label>Special Instructions<input type="text" name="instructions" id="instructions"></label> 
 
-            <div class = "fruitchoices">
-                <label for="fruit2">Second Fruit Choice*</label>
-                    <select name="fruit2" id="fruit2" required>
-                        <option value="">Please Select Fruit &#9662;</option>
-                    </select>
-            </div>
-
-            <div class = "fruitchoices">
-                <label for= "fruit3">Third Fruit Choice*</label>
-                    <select name="fruit3" id="fruit3" required>
-                        <option value="">Please Select Fruit &#9662;</option>
-                    </select>     
-            </div>
-
-            <div>
+            <!-- <div>
                 <label for="instructions">Special Instructions</label>
                 <input type="text" name="instructions" id="instructions">
-            </div>
+            </div> -->
             
-            <button type="submit" class = "submit_info_button" value="Add Information" class="submitBtn">Add Information</button>
+            <button type="submit" class = "submit_info_button submit_info_page" value="Add Information" class="submitBtn">Add Information</button>
 
         </form>
     </div> <!-- end of form section div -->
@@ -103,14 +81,9 @@ the total amount of carbohydrates, protein, fat, sugar, and calories based upon 
 
 <footer>
 
-    <!-- Resource page                                  -->
-    <div class="footeritems resources"><br><br><a href="./resources.html">Resources & Credits</a></div>
-
     <!-- Javascript links                                -->
     <script src="scripts/genericscript.js"></script>
-    <!-- No weather needed, so that was removed-->
-    <!-- Added freshscript.js-->
-    <script src="scripts/freshscript.js"></script>
+    <script src="scripts/addinfoscript.js"></script>
 
 </footer>
 

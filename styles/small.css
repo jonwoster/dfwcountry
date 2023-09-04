@@ -24,6 +24,7 @@ header {
     margin-left: 2rem;
     margin-top: 30px;
     font-family: 'Rye';
+    font-size: 40px;
     color: gold;
 }
 
@@ -31,23 +32,28 @@ header {
     display: grid;
     grid-column: 4/5;
     grid-row: 1;
-    margin-top: 30px;
     justify-content: end;
 }
 
 #hamburger-button {
-    border: solid 2px gold;
-    border-bottom: none;
+    border: solid 1px black;
+    border-bottom: 0px;
     border-radius: 2px;
     font-weight: bold;
+    font-size: 40px;
+}
+
+#hamburger-button:hover {
+    background-color: grey;
+}
+
+span {
+    color: gold;
 }
 
 header button {
     background: transparent;
-	background-color: #ffbf00;
-    border: solid gold;
     font-size: 30px;
-    color: black;
     height: 100px;
     width: 100px;
 }
@@ -112,64 +118,31 @@ main {
     margin-bottom: 10px;
 }
 
-/* .calltoaction {
-    grid-row: 1;
-    padding-bottom: 10px;
-    color: white;
-} */
-
-
-
 main li {
     list-style-type: circle;
 }
 
 
-/****************************  Map Pilot stuff ******************/
-/*
- * Always set the map height explicitly to define the size of the div element
- * that contains the map.
- */
+/****************************  Map stuff ******************/
+
  #map {
     height: 100%;
-  }
-
-  /*
-   * Optional: Makes the sample page fill the window.
-   */
-  html,
-  body {
-    height: 100%;
-    margin: 0;
-    padding: 0;
+    margin-bottom: 10px;
   }
 
 
 /*************    Footer         *****************/
 footer {
-    /* display: grid;
-	grid-template-rows: repeat(2, auto); */
 	width: 100%;
     border-top: solid 2px gold;
     background-color: black;
-    /* row-gap: 10px;  */
     color: white;
     padding-bottom: 1rem;
 }
 
-/* .footerresources {
-    grid-row: 1;
-    color: white;
-} */
-
-/* .footeraddinfo {
-    grid-row: 2;
-} */
-
-
 
 /*******************  Add Info styling  ***********************/
-.mainfresh {
+.mainsubmitpage {
     display: grid;
 	grid-template-columns: 1fr;
     grid-template-rows: repeat(3, auto);
@@ -178,44 +151,35 @@ footer {
     margin-right: 1rem;
 }
 
-.freshexplanation {
-    grid-row: 1;
-    grid-column: 1;
-    padding-right: 1rem;
-}
-
-.freshform {
+.missing_info_form {
     grid-row: 2;
     grid-column: 1;
     border: solid 2px gold;
     padding-left: 10px;
 }
 
-.mainfresh form {
+.mainsubmitpage form {
     display: flex;
     flex-direction: column;
 }
 
-.mainfresh form div {
+.mainsubmitpage form div {
     padding-top: 1rem;
 }
 
-.mainfresh form label {
+.mainsubmitpage form label {
     display: block;
     width: 200px;
     padding-top: 1rem;
     text-align: left;
-    color: white;
+    color: gold;
 }
 
 button {
-    /* border: solid 2px gold; */
     background-color: gold;
     color: black;
     border-radius: .5rem;
     padding: .75rem 1.5rem;
-    /* margin: 1rem 0 1rem 0; */
-    /* width: 100%; */
     max-width: 22rem;
 }
 
@@ -226,63 +190,22 @@ button:hover {
 .submit_info_button:hover {
     font-size: 1.2rem;
     font-weight: bold;
+    background-color: goldenrod;
 }
 
-
-input, select#fruit1, select#fruit2, select#fruit3 {
-    height: 3rem;
+.submit_info_button {
     width: 300px;
 }
 
-span {
-    color: black;
+
+#instructions {
+    margin-bottom: 50px;
 }
 
-/***********    About Styling  ********************/
-.about-main {
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: repeat(3, auto);
-    margin: 1rem 1rem 0 1rem;
-    width: auto;
-}
 
-.about-history, .about-now, .about-contact {
-    padding: 0 1rem 0 1rem;
-    border: solid 2px gold;
-}
-
-.about-history img {
-    display: block;
-    align-items: center;
-    margin: auto;
-    margin-bottom: 1rem;
-}
-
-.about-history {
-    grid-row: 1;
-    grid-column: 1;
-
-}
-.about-now {
-    grid-row: 2;
-    grid-column: 1;
-}
-.about-contact {
-    grid-row: 3;
-    grid-column: 1;
-}
-
-.about-contact iframe {
-    display: block;
-    align-items: center;
-    margin: auto;
-    margin-bottom: 1rem;
-}
-
-/**********************  Resource Page Styling *****************************/
-.resourcepage {
-    color: white;
+input {
+    height: 3rem;
+    width: 300px;
 }
 
 
@@ -295,28 +218,17 @@ span {
     grid-row: 1;
 }
 
-/* .venue-list-socials a {
-    display: flex;
-    flex-wrap: wrap;
-    width: 95%;
-    justify-content: center;
-    align-items: first baseline;
-    font-size: 2rem;
-} */
+a.venuename {
+    padding-top: 1rem;
+}
+
 
 main a {
     text-decoration: goldenrod underline;
     color: black;
-    /* padding-bottom: 20px;
-    margin-top: 20px; */
     font-size: 1.4rem;
-    /* font-weight: bold; */
 }
 
-/* a.venue-list-socials + a.venue-list-socials::before {
-    padding: 10px;
-    content: "|";
-} */
 
 p .venue-list-action, .venue-list-action {
     color: gold;
@@ -327,8 +239,7 @@ p .venue-list-action, .venue-list-action {
 
 .sector {
     font-size: 1.2rem;
-    padding-bottom: 1rem;
-    /* color: black; */
+    padding-bottom: 2rem;
 }
 
 .pagetitle {
@@ -348,13 +259,11 @@ p .venue-list-action, .venue-list-action {
 }
 
 .fa-brands {
-    /* padding: 0 2rem; */
     margin: 0 2rem;
     font-size: 36px;
 }
 
 #nav-icon {
-    /* padding: 0 2rem; */
     margin: 0 2rem;
     font-size: 38px;
 }
@@ -386,49 +295,15 @@ section {
     border-radius: 5px;
 }
 
-.cards.img {
-    box-shadow: 0 0 10px #777;
-    border: 1px solid #333;
-}
-
-/* .menu {
-	margin: .5rem;
-	border: 1px solid #002868;
-	padding: 0.5rem;
-	background-color: white;
-	text-align: center;
-} */
-
-/* .menu button {
-	padding: 1rem;
-	font-weight: 700;
-	background-color:black;
-	color: white;
-} */
-
-.gridactive {
-	border: 5px solid goldenrod;
-}
-
-.mapactive {
-	border: 5px solid goldenrod;
-}
-
-
 .grid {
 	display: grid;
 	grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
 	row-gap: 10px;
 	column-gap: 0;
-	/* padding-bottom: 40px; */
 }
 
 .grid section {
 	text-align: center;
-}
-
-.grid img {
-	border: 1px solid #002868;
 }
 
 .grid section > * {
@@ -439,32 +314,6 @@ section {
 .grid .venuename, .map .venuename {
 	font-size: 1.5rem;
     font-weight: bold;
-}
-
-/* .venuename {
-    color: black;
-} */
-
-.map {
-	display: flex;
-	flex-direction: column;
-	padding-bottom: 50px;
-}
-
-.map section {
-	display: flex;
-	flex-direction: column;
-	margin: 0 .5rem 0 .5rem;
-	padding: 1rem;
-	align-items:flex-start;
-}
-
-.map section > * {
-	margin: 0 1rem;
-}
-
-.map section img {
-	display: none;
 }
 
 #shadow-host-companion {

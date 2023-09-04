@@ -79,9 +79,9 @@ const displaycards = (venues) => {
       // Create elements to add to the div.cards element
       let card = document.createElement('section');
 
-      let busname = document.createElement('p');
+      let busname = document.createElement('a');  // changed from p to a
       let venuearea = document.createElement('p');
-      let buswebsite = document.createElement('a');
+      // let buswebsite = document.createElement('a');
 
       let icons = document.createElement('div');
       let venuenav = document.createElement('a');
@@ -91,16 +91,16 @@ const displaycards = (venues) => {
 
       // Designate what text to display for the elements
       busname.textContent = `${venue.name}`;
-      buswebsite.textContent = "Website"; 
+      // buswebsite.textContent = "Website"; 
       // venuenav.innerHTML = '<i id = "nav-icon", class="material-icons">&#xe52e;</i>';
       venuenav.innerHTML = '<i class="material-icons" id="nav-icon">directions</i>';
       venuefacebook.innerHTML = '<i class="fa-brands fa-facebook"></i>';
       venueinstagram.innerHTML = '<i class="fa-brands fa-instagram"></i>';
-      venuetwitter.innerHTML = '<i class="fa-brands fa-x"></i>';
+      venuetwitter.innerHTML = '<i class="fa-brands fa-twitter"></i>';
       venuearea.textContent = "(" + `${venue.area}` + ")";
       
       // Set attributes for links
-      buswebsite.setAttribute('href', `${venue.website}`);
+      busname.setAttribute('href', `${venue.website}`);
       venuenav.setAttribute('href', `${venue.navigation}`);
       venuefacebook.setAttribute('href', `${venue.facebook}`);
       venueinstagram.setAttribute('href', `${venue.instagram}`);
@@ -109,13 +109,13 @@ const displaycards = (venues) => {
       // Set attributes to specify classes
       busname.setAttribute('class', 'venuename');
       venuearea.setAttribute('class', 'sector');
-      buswebsite.setAttribute('id', 'website');
+      // buswebsite.setAttribute('id', 'website');
       icons.setAttribute('class', 'icons');
   
       // Append the section(card) with the created elements
       card.appendChild(busname);
       card.appendChild(venuearea);
-      card.appendChild(buswebsite);
+      // card.appendChild(buswebsite);
       
       icons.appendChild(venuenav);
 

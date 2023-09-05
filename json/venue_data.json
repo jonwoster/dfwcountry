@@ -108,6 +108,17 @@
             "latlong": "32.9013808,-96.3676488",
             "navigation": "https://www.google.com/maps/dir//Southern+Junction+Texas,+101+N+Rogers+Rd,+Irving,+TX+75061/@32.815638,-96.9644251,17z/data=!4m8!4m7!1m0!1m5!1m1!1s0x864e839fcf650cd3:0x51cf103dd0888e77!2m2!1d-96.9644206!2d32.8158413?entry=ttu"
         },
+
+        {
+            "name": "Mama Tried",
+            "website": "https://mamatriedtexas.com/irving/",
+            "facebook": "https://www.facebook.com/MamaTriedIrving/",
+            "instagram": "https://www.instagram.com/mamatriedirving/?hl=en",
+            "twitter": "",
+            "area": "Irving, Central Metroplex",
+            "latlong": "32.875433090208446, -96.94510911164387",
+            "navigation": "https://www.google.com/maps/dir//Mama+Tried+Irving,+340+W+Las+Colinas+Blvd.,+Irving,+TX+75039/@32.874514,-96.9452164,15z/data=!3m1!5s0x864e82977f6e5c45:0xd1bd15c7e4878d60!4m8!4m7!1m0!1m5!1m1!1s0x864e82977e90fd71:0xb9de95458c1fe971!2m2!1d-96.9452164!2d32.874514?entry=ttu"
+        },
         {
             "name": "Cowboy's Red River",
             "website": "https://www.cowboysdancehall.com/dallas/events/",

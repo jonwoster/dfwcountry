@@ -73,6 +73,30 @@
         },
 
         {
+            "name": "Pearl's Saloon",
+            "website": "https://pearlssaloon.com/events-calendar",
+            "facebook": "https://www.facebook.com/110368558682546",
+            "instagram": "https://www.instagram.com/pearlssaloonfw",
+            "twitter": "",
+            "area": "Fort Worth Stockyards",
+            "lat": "32.789728317431305",
+            "long": "-97.35013630168844",
+            "navigation": "https://www.google.com/maps/dir/33.073352,-96.7465693/google+maps+pearls+saloon/@32.9263098,-97.6815246,9z/data=!3m1!4b1!4m9!4m8!1m1!4e1!1m5!1m1!1s0x864e758c203833d1:0xd9d7a8b4573e8a8d!2m2!1d-97.35181!2d32.789115?entry=ttu"
+        },
+
+        {
+            "name": "Rhinestone Saloon",
+            "website": "https://www.rhinestonesaloon.com/services-4",
+            "facebook": "https://www.facebook.com/rhinestonesaloon/",
+            "instagram": "https://www.instagram.com/rhinestone_saloon/",
+            "twitter": "",
+            "area": "Fort Worth Stockyards",
+            "lat": "32.78865535213002",
+            "long": "-97.35049494546205",
+            "navigation": "https://www.google.com/maps/dir/33.0733498,-96.7465874/Rhinestone+Saloon,+2413+Ellis+Ave,+Fort+Worth,+TX+76164/@32.9280412,-97.0209559,10z/data=!3m1!4b1!4m18!1m7!3m6!1s0x864e77a7be117e35:0x15784563bba914e0!2sRhinestone+Saloon!8m2!3d32.788608!4d-97.350562!16s%2Fg%2F11q3vwq5s8!4m9!1m1!4e1!1m5!1m1!1s0x864e77a7be117e35:0x15784563bba914e0!2m2!1d-97.350562!2d32.788608!3e0?entry=ttu"
+        },
+
+        {
             "name": "Rodeo Exchange",
             "website": "https://www.rodeoex.com/calendar/",
             "facebook": "https://www.facebook.com/RodeoExchange",
@@ -130,6 +154,20 @@
             "long": "-96.94510911164387",
             "navigation": "https://www.google.com/maps/dir//Mama+Tried+Irving,+340+W+Las+Colinas+Blvd.,+Irving,+TX+75039/@32.874514,-96.9452164,15z/data=!3m1!5s0x864e82977f6e5c45:0xd1bd15c7e4878d60!4m8!4m7!1m0!1m5!1m1!1s0x864e82977e90fd71:0xb9de95458c1fe971!2m2!1d-96.9452164!2d32.874514?entry=ttu"
         },
+
+        {
+            "name": "Magnolia Motor Lounge",
+            "website": "https://www.magnoliamotorlounge.com/calendar",
+            "facebook": "https://www.facebook.com/Magnolia.Motor.Lounge/",
+            "instagram": "https://www.instagram.com/mmlbarftw/",
+            "twitter": "https://twitter.com/mmlbarftw",
+            "area": "Southwest Fort Worth",
+            "lat": "32.72661114376411",
+            "long": "-97.40836671786474",
+            "navigation": "https://www.google.com/maps/dir/33.0733537,-96.7465788/Magnolia+Motor+Lounge,+3803+Southwest+Blvd,+Fort+Worth,+TX+76116/@32.9051648,-97.7548724,9z/data=!3m1!4b1!4m18!1m7!3m6!1s0x864e73dd6d78277b:0xc66af39696ab4175!2sMagnolia+Motor+Lounge!8m2!3d32.7167906!4d-97.4413257!16s%2Fm%2F0k07lqt!4m9!1m1!4e1!1m5!1m1!1s0x864e73dd6d78277b:0xc66af39696ab4175!2m2!1d-97.4413257!2d32.7167906!3e0?entry=ttu"
+        },
+
+
         {
             "name": "Cowboy's Red River",
             "website": "https://www.cowboysdancehall.com/dallas/events/",

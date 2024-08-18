@@ -83,10 +83,12 @@ nav ul li a {
 nav ul li.active a {
     background-color: rgba(0,0,0,0.1);
     color: black;
+    /* height: 100%; */
 }
 
 nav ul li a:hover {
 	background-color: goldenrod;
+    /* height: 50px; */
 }
 
 nav ul {
@@ -247,6 +249,8 @@ p .venue-list-action, .venue-list-action {
     display: flex;
     justify-content: center;
     text-align: center;
+    margin-left: 1rem;
+    margin-right: 1rem;
 }
 
 .directorytitle {

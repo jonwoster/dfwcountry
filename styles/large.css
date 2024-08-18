@@ -19,17 +19,19 @@
         display: flex;
 		margin: 0px;
 		padding: 0rem;
-		width: 500px;
+		/* width: 600px; */
         justify-content: left;
 		text-decoration: goldenrod underline;
     }
 
 	nav ul li a {
-		padding-left: 2rem;
+		/* padding-left: 2rem;
 		padding-right: 2rem;
-		padding-top: 60px;
-		padding-bottom: 0px;
-		height: 40px; 
+		padding-top: 20px;
+		padding-bottom: 0px; 
+		height: 90px; */
+		justify-items: center;
+		/* height: 100%; */
 		
 	}
 

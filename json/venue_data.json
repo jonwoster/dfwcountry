@@ -27,17 +27,6 @@
         },
 
         {
-            "name": "Hank's Texas Grill",
-            "website": "https://www.hankstexasgrill.com/calendar",
-            "facebook": "https://www.facebook.com/HanksTexasGrill",
-            "instagram": "https://www.instagram.com/hankstexas/",
-            "twitter": "https://twitter.com/HanksTexas",
-            "area": "McKinney, Northeast Metroplex",
-            "lat": "33.210326490180485",
-            "long": "-96.63705101533982",
-            "navigation": "https://www.google.com/maps/dir//Hank's+Texas+Grill,+1310+N+Central+Expy,+McKinney,+TX+75070/@33.2094827,-96.6370081,15z/data=!4m8!4m7!1m0!1m5!1m1!1s0x864c13a38f9d30a3:0xcb0cdabdabdc135e!2m2!1d-96.6370081!2d33.2094827?entry=ttu"
-        },
-        {
             "name": "Billy Bob's Texas",
             "website": "https://billybobstexas.com/events",
             "facebook": "https://www.facebook.com/BillyBobsTexas",
@@ -178,6 +167,18 @@
             "lat": "32.862511375966825",
             "long": "-96.89824376932037",
             "navigation": "https://www.google.com/maps/dir//Cowboys+Red+River+%7C+Dancehall+%26+Saloon,+10310+Technology+Blvd+W,+Dallas,+TX+75220/@32.8616282,-96.8983296,15z/data=!4m8!4m7!1m0!1m5!1m1!1s0x864e9d15904f404f:0x59f03dcadfa85cad!2m2!1d-96.8983296!2d32.8616282?entry=ttu"
+        },
+
+        {
+            "name": "Western Kountry Klub",
+            "website": "https://www.facebook.com/kountryklub?mibextid=LQQJ4d",
+            "facebook": "https://www.facebook.com/kountryklub?mibextid=LQQJ4d",
+            "instagram": "https://www.instagram.com/thewesternkountryklub/?e=8010189a-4d9d-4845-9913-97d07e096e1a&g=5",
+            "twitter": "",
+            "area": "Midlothian, South of central DFW",
+            "lat": "32.510477857909706",
+            "long": "-97.06047460362133",
+            "navigation": "https://www.google.com/maps/dir//5728+Lake+View+Road,+Midlothian,+TX+76065/@32.5093921,-97.2288744,11z/data=!4m8!4m7!1m0!1m5!1m1!1s0x864ef530903dbe0d:0x9c239fb4cb40a580!2m2!1d-97.0642435!2d32.5093299?entry=ttu"
         },
 
         {
